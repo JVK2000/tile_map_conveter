@@ -75,6 +75,8 @@ def decode_tile_position(encoded_index):
     return (x, y)
 
 
+print(":::::::", decode_tile_position(196609))
+
 pos_data = tile_data[::3]
 source_data = tile_data[1::3]
 tile_map_pos_data = tile_data[2::3]
